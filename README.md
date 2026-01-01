@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# React Component Library
 
-## Getting Started
+A small React component library built with **Next.js**, **TypeScript**, and **Storybook**.  
+Includes reusable components: `Input`, `Toast`, and `Sidebar Menu`.
 
-First, run the development server:
+---
+
+## Project Setup
+
+1. Clone the repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+git clone https://github.com/VladimirRudkovskiy/book-library.git
+cd book-library
+npm install
+npm run storybook
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Input
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Supports text, password, number
 
-## Learn More
+Clearable input with ✕ button
 
-To learn more about Next.js, take a look at the following resources:
+Password visibility toggle 👁
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Props: type, value, placeholder, clearable, onChange
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. Toast
 
-## Deploy on Vercel
+Bottom-right notification
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Auto-dismiss after duration (ms)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Types: success, error, info
+
+Props: message, type, duration, onClose
+
+3. Sidebar Menu
+
+Sliding panel from right
+
+Supports nested menus (1 or 2 levels)
+
+Closes when overlay clicked
+
+Props: items, open, onClose
+
+
+### Input Component
+
+![Text Input](./screenshots/text-input.png)
+![Text Input Content](./screenshots/text-input-content.png)
+![Password Input Shown](./screenshots/password-input-shown.png)
+![Password Input Hidden](./screenshots/password-input-hidden.png)
+![Clearable Input](./screenshots/clearable-input.png)
+![Cleared Input](./screenshots/cleared-input.png)
+
+### Toast Component
+
+![Success Toast](./screenshots/success-toast.png)
+![Error Toast](./screenshots/error-toast.png)
+![Info Toast](./screenshots/info-toast.png)
+
+### Sidebar Menu
+
+![Sidebar Level1](./screenshots/sidebar-level1.png)
+![Sidebar Level2](./screenshots/sidebar-level2.png)
