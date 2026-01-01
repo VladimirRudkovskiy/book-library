@@ -49,7 +49,7 @@ Props: items, open, onClose
 
 ### Input Component
 
-![Text Input]<img width="647" height="571" alt="Image" src="https://github.com/user-attachments/assets/a83cccda-f8fd-4d83-9234-0a03f0f481ac" />
+![Text Input](<img width="647" height="571" alt="Image" src="https://github.com/user-attachments/assets/a83cccda-f8fd-4d83-9234-0a03f0f481ac" />)
 ![Text Input Content]<img width="646" height="571" alt="Image" src="https://github.com/user-attachments/assets/d67d091e-b829-46e3-92b5-2915eeb1c5e7" />
 ![Password Input Shown]<img width="648" height="570" alt="Image" src="https://github.com/user-attachments/assets/3386cdc7-5d05-40ba-a358-bacae335d93f" />
 ![Password Input Hidden]<img width="647" height="570" alt="Image" src="https://github.com/user-attachments/assets/06556160-77ee-4114-b9ed-35968cc7a6a3" />
