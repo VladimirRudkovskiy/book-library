@@ -1,0 +1,43 @@
+/* src/components/Input/Input.module.css */
+
+.wrapper {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  max-width: 280px;
+}
+
+.input {
+  width: 100%;
+  padding: 8px 32px 8px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #4f46e5;
+}
+
+.icon {
+  position: absolute;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: #666;
+}
+
+.passwordIcon {
+  right: 32px;
+}
+
+.clearIcon {
+  right: 8px;
+}
+
+.icon:hover {
+  color: #111;
+}
